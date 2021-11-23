@@ -68,6 +68,7 @@ a {
 .caption{
     font-size: 15px;
     font-style: italic;
+    text-align: center;
 }
 .section-one{
     border: 1px solid white;
@@ -77,12 +78,18 @@ a {
 
 .container{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .cake-item{
     border: 1px dashed yellow;
-    width: 272px;
-    height: 275;
+    width: 275px;
+    height: 275px;
     padding: 4px;
+}
+
+.cake-group{
+    width: 275px;
 }
 
