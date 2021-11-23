@@ -78,3 +78,11 @@ a {
 .container{
     display: flex;
 }
+
+.cake-item{
+    border: 1px dashed yellow;
+    width: 272px;
+    height: 275;
+    padding: 4px;
+}
+
