@@ -74,3 +74,7 @@ a {
     background-color: darkslateblue;
 
 }
+
+.container{
+    display: flex;
+}
